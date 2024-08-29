@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 50px;
+}
+
+body {
+  min-height: 100svh;
+}
+
+.img-container {
+  height: 180px;
+  margin-top: 50px;
+  align-content: center;
+}
+
+h2 {
+  font-family: "Bangers", system-ui;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.card-container {
+  border: solid 1px black;
+  background-color: #02021d;
+  color: #ececec;
+  display: flex;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.details-container {
+  padding: 30px;
+}
+
+.occupation {
+  color: red;
+}
+
+.card-details {
+  display: flex;
+  text-align: center;
+  gap: 40px;
+  margin-block: 20px;
+}
+
+.lable {
+  color: red;
+}
